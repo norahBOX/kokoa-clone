@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  box-sizing: border-box;
+  box-sizing: border-box; /* do not want to increase size even if it has padding */
 }
 .status-bar__column { 
   width: 33%;
