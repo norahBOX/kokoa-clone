@@ -7,7 +7,12 @@
   text-align: center;
   background-color: #fafafa;
 }
+
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
   font-size: 16px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
 }
