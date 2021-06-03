@@ -67,8 +67,10 @@
           </div>
   
           <div class="user-component__column">
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
+            <div> <!-- flex 영향 받지 않게 하기 위해 div안에 한 번 더 넣어줌 -->
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
           </div>
         </div>
 
@@ -87,7 +89,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification">1</span>
+            <span class="nav__notification badge">16</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
