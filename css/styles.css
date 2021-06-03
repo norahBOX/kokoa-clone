@@ -15,3 +15,10 @@ body {
   height: 200vh;
   color: #2e363e;
 }
+
+.main-screen {
+  display: inline-block;
+  margin-top: 108px;
+  padding: 0px var(--horizontal-space);
+  /* float: bottom; */
+}
