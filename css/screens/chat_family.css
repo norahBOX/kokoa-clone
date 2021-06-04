@@ -2,7 +2,11 @@
   background-color: #abc1d1;
   height: 1100vh;
 }
-.status-bar.chat-screen, 
-.alt-header {
+#chat-screen .status-bar,
+#chat-screen .alt-header {
   background-color: #abc1d188;
+  z-index: 1;
+}
+.main-screen.main-chat {
+  margin-top: 124px;
 }
