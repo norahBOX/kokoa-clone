@@ -44,15 +44,35 @@
   font-size: 17px;
 }
 
-.user-component__column:last-child {
-  color: var(--gray);
-}
 .user-component__time {
   display: block;
   margin-bottom: 5px;
 }
 .user-component__column:last-child {
+  color: var(--gray);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+.user-component__text{
+  position: relative;
+}
+.user-component__phone-number-check {
+  width: 13px; 
+  height: 13px;
+  border: 2px solid tomato;
+  border-radius: 50%;
+  background-color: none;
+  color: tomato;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  right: -20px;
+}
+.user-component__phone-number-check span {
+  text-align: center;
 }
