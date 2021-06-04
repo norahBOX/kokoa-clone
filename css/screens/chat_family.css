@@ -1,0 +1,7 @@
+#chat-screen {
+  background-color: #abc1d1;
+}
+.status-bar.chat-screen, 
+.alt-header {
+  background-color: #abc1d188;
+}
