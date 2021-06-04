@@ -7,6 +7,22 @@
   background-color: #abc1d188;
   z-index: 1;
 }
-.main-screen.main-chat {
-  margin-top: 124px;
+#chat-screen .alt-header {
+  margin-bottom: 0px;
+}
+#chat-screen .main-screen {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat__timestamp {
+  padding: 7px 14px;
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  font-size: 14px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
