@@ -16,3 +16,7 @@
   height: 5px;
   border-radius: 50%;
 }
+
+.none {
+  background-color: rgba(0,0,0,0);
+}
