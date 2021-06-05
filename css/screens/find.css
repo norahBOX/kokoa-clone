@@ -90,3 +90,21 @@
 .open-post__heart-count span {
   margin-left: 5px;
 }
+
+@keyframes heartBeatAnimation {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color:white;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeatAnimation 1s linear infinite;
+
+}
